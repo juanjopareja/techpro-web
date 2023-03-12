@@ -74,7 +74,7 @@ img {
 /* Header */
 .header {
     background-color: var(--black);
-    padding: calc(var(--separation) * 3) 0;
+    padding: calc(var(--separation) * 2) 0;
     color: var(--white);
 }
 
@@ -104,7 +104,7 @@ img {
         text-align: left;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         padding: 0;
     }
 }
@@ -169,4 +169,58 @@ img {
     text-transform: uppercase;
     margin-top: calc(var(--separation) / 2);
     margin-bottom: 1rem;
+}
+
+/* About TechPRO */
+.about-tech {
+    background-image: linear-gradient(to bottom, transparent 50%, var(--primaryColor) 0%), url(../img/img-woman.jpg);
+    background-position: right top;
+    background-repeat: repeat, no-repeat;
+    background-size: 100%, 120rem;
+}
+
+@media (min-width: 768px) {
+    .about-tech {
+        background-image: linear-gradient(to left, transparent 50%, var(--primaryColor) 0%), url(../img/img-woman.jpg);
+    }
+}
+
+.about-tech-grid {
+    display: grid;
+    grid-template-rows: repeat(2, 50rem);
+    row-gap: var(--separation);
+}
+
+@media (min-width: 768px) {
+    .about-tech-grid {
+        grid-template-rows: unset;
+        row-gap: unset;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20rem;
+        padding: calc(var(--separation) * 2) 0;
+    }
+}
+
+.about-tech-text {
+    grid-row: 2 / 3;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: var(--separation);
+}
+
+@media (min-width: 768px) {
+    .about-tech-text {
+        margin-bottom: unset;
+    }
+}
+
+.about-tech-text h2 {
+    font-size: 4rem;
+}
+
+.about-tech-text p {
+    font-size: 2rem;
+    line-height: 2;
 }
