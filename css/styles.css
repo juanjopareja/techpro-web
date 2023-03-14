@@ -321,6 +321,7 @@ img {
     font-size: 6rem;
 }
 
+
 /* Newsletter */
 .newsletter {
     background-image: linear-gradient(to bottom, transparent 50%, var(--white) 0%), url(../img/newsletter.jpg);
@@ -385,4 +386,22 @@ img {
 .form input[type="submit"]:hover {
     background-color: #0f64a1;
     cursor: pointer;
+}
+
+
+/* Footer */
+.footer p {
+    text-align: center;
+    font-family: var(--secondaryFont);
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: var(--primaryColor);
+    padding: 5rem 0;
+    margin-top: 4rem;
+}
+
+@media (min-width: 768px) {
+    .footer p {
+        margin-top: 3rem;
+    }
 }
