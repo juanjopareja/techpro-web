@@ -173,16 +173,39 @@ img {
 
 /* About TechPRO */
 .about-tech {
-    background-image: linear-gradient(to bottom, transparent 50%, var(--primaryColor) 0%), url(../img/img-woman.jpg);
     background-position: right top;
     background-repeat: repeat, no-repeat;
     background-size: 100%, 120rem;
 }
 
+.notavif.notwebp .about-tech {
+    background-image: linear-gradient(to bottom, transparent 50%, var(--primaryColor) 0%), url(../img/img-woman.jpg);
+}
+
+.webp .about-tech {
+    background-image: linear-gradient(to bottom, transparent 50%, var(--primaryColor) 0%), url(../img/img-woman.webp);
+}
+
+.avif .about-tech {
+    background-image: linear-gradient(to bottom, transparent 50%, var(--primaryColor) 0%), url(../img/img-woman.avif);
+}
+
 @media (min-width: 768px) {
     .about-tech {
+    }
+    
+    .notavif.notwebp .about-tech {
         background-image: linear-gradient(to left, transparent 50%, var(--primaryColor) 0%), url(../img/img-woman.jpg);
     }
+    
+    .webp .about-tech {
+        background-image: linear-gradient(to left, transparent 50%, var(--primaryColor) 0%), url(../img/img-woman.webp);
+    }
+    
+    .avif .about-tech {
+        background-image: linear-gradient(to left, transparent 50%, var(--primaryColor) 0%), url(../img/img-woman.avif);
+    }
+
 }
 
 .about-tech-grid {
@@ -324,20 +347,42 @@ img {
 
 /* Newsletter */
 .newsletter {
-    background-image: linear-gradient(to bottom, transparent 50%, var(--white) 0%), url(../img/newsletter.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: 100%, 70rem;
     margin-top: var(--separation);
 }
 
+.notavif.notwebp .newsletter {
+    background-image: linear-gradient(to bottom, transparent 50%, var(--white) 0%), url(../img/newsletter.jpg);
+}
+
+.webp .newsletter {
+    background-image: linear-gradient(to bottom, transparent 50%, var(--white) 0%), url(../img/newsletter.webp);
+}
+
+.avif .newsletter {
+    background-image: linear-gradient(to bottom, transparent 50%, var(--white) 0%), url(../img/newsletter.avif);
+}
+
 @media (min-width: 768px) {
     .newsletter {
-        background-image: linear-gradient(to right, transparent 50%, var(--white) 0%), url(../img/newsletter.jpg); 
         background-position: center, 0rem 0rem;
         background-size: 100%, 100rem;
         padding: 10rem 0;
         margin-top: 8rem;
+    }
+    
+    .notavif.notwebp .newsletter {
+        background-image: linear-gradient(to right, transparent 50%, var(--white) 0%), url(../img/newsletter.jpg); 
+    }
+    
+    .webp .newsletter {
+        background-image: linear-gradient(to right, transparent 50%, var(--white) 0%), url(../img/newsletter.webp); 
+    }
+    
+    .avif .newsletter {
+        background-image: linear-gradient(to right, transparent 50%, var(--white) 0%), url(../img/newsletter.avif);
     }
 }
 
