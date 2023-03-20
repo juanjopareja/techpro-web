@@ -11,6 +11,7 @@ Página web de producto, en este caso unos auriculares, que forma parte de un co
 ## Proyectos relacionados:
   * [E-Commerce](https://github.com/juanjopareja/ecommerce-web)
   * [TechPRO](https://github.com/juanjopareja/techpro-web)
+  * [Forest Architecture](https://github.com/juanjopareja/forest-architecture-web)
 
 ## Vista previa
 <p align="center"><br>
