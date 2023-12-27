@@ -16,7 +16,7 @@ Página web de producto, en este caso unos auriculares, que forma parte de un co
   * [La Cafetería](https://github.com/juanjopareja/la-cafeteria-web)
   * [DeliverEat](https://github.com/juanjopareja/delivereat-web)
   * [Real Estate](https://github.com/juanjopareja/real-estate-web)
-  * Carolina SPA
+  * [Carolina SPA](https://github.com/juanjopareja/carolina-spa-web)
 
 ## Vista previa
 <p align="center"><br>
