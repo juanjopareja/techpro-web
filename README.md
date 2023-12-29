@@ -17,7 +17,7 @@ Página web de producto, en este caso unos auriculares, que forma parte de un co
   * [DeliverEat](https://github.com/juanjopareja/delivereat-web)
   * [Real Estate](https://github.com/juanjopareja/real-estate-web)
   * [Carolina SPA](https://github.com/juanjopareja/carolina-spa-web)
-  * Meeti
+  * [Meeti](https://github.com/juanjopareja/meeti-web)
 
 ## Vista previa
 <p align="center"><br>
